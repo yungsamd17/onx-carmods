@@ -1,5 +1,5 @@
   <p align="center">
-    <img src="https://i.imgur.com/jZvzRA6.png">
+    <img src="https://i.imgur.com/zAffnnr.png">
 </p>
   
 <h1> <div align="center"><a href="https://yungsamd17.github.io/onx-carmods/">ONX Vehicle Mods</div> </h1>
