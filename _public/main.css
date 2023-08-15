@@ -9,7 +9,6 @@ body {
   --main-accent-darker-pink: #e01b84;
   --main-accent-darker-pink-hover: #881150;
 
-
   margin: 0;
   padding: 0;
   background: linear-gradient(150deg, rgb(37, 29, 59) 0%, rgb(28, 36, 45) 100%);
@@ -20,23 +19,17 @@ body {
   color-scheme: dark;
 }
 
-/* width */
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
   background: #0d0d15; 
 }
- 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--main-accent-darker-pink);
   border-radius: 10px;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--main-accent-darker-pink-hover);
 }
@@ -132,7 +125,7 @@ header input[type="search"] {
   text-indent: 30px;
   display: block;
   caret-color: var(--main-accent-pink); /* Text cursor color */
-  -webkit-caret-color: var(--main-accent-pink); /* For Safari support */
+  -webkit-caret-color: var(--main-accent-pink); /* Safari support */
 }
 /* Hide the clear button on the search input */
 input[type="search"]::-webkit-search-cancel-button,
@@ -174,16 +167,16 @@ input[type="search"]::-webkit-search-decoration {
   font-weight: bold;
 }
 
-/* CARD for content 10082b*/
+/* CARD for content */
 .card {
   list-style-type: none;
   color: white;
   background-color: rgba(0, 0, 0, 0.25);
   padding: 30px 30px 10px 30px;
-  margin: 85px auto 45px auto; /* Centered and adjusted margin */
+  margin: 85px auto 45px auto;
   border-radius: 15px;
   border: 20px;
-  max-width: 45%; /* Limit width to 70% of the page */
+  max-width: 45%;
 }
 
 .row:after {
@@ -357,7 +350,7 @@ a:hover {
   margin-top: 20px;
   font-weight: bold;
 }
-/* Style for NP Exclusive mods*/
+/* Style for ONX Exclusive mods*/
 .p3 {
   margin: 0px;
 }
