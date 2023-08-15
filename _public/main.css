@@ -33,7 +33,7 @@ body {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--main-accent-darker-pink);
-  border-radius: 3px;
+  border-radius: 10px;
 }
 
 /* Handle on hover */
@@ -113,7 +113,7 @@ header .search {
   flex: 1 0 auto;
 }
 header input[type="search"] {
-  background: #cccccc no-repeat;
+  background: white no-repeat;
   background-image: url('assets/search-icon.svg');
   background-position: 10px 9px;
   background-size: 22px;
@@ -403,7 +403,7 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   header {
-    font-size: 1.350rem;
+    font-size: 1.6rem;
   }
   header input[type="search"] {
     width: 150px;
@@ -421,6 +421,6 @@ a:hover {
 
 @media only screen and (max-width: 400px) {
   header {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 }
