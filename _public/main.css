@@ -1,0 +1,426 @@
+body {
+  --white: #fff;
+  --black: #000;
+  --dark: #0d0d15;
+  --main-dark: #0a031e;
+  --main-purple: #180d3e;
+  --main-darker-purple: #130a32;
+  --main-accent-pink: #ee46bd;
+  --main-accent-darker-pink: #e01b84;
+  --main-accent-darker-pink-hover: #881150;
+
+
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(150deg, rgb(37, 29, 59) 0%, rgb(28, 36, 45) 100%);
+  background-attachment: fixed;
+  font-family: Arial;
+}
+:root {
+  color-scheme: dark;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0d0d15; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-accent-darker-pink);
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--main-accent-darker-pink-hover);
+}
+
+.topBtn {
+  display: none;
+  position: fixed;
+  bottom: 65px;
+  right: 30px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  font-size: 1.3rem;
+  border: none;
+  background-color: var(--main-dark);
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.topBtn:hover {
+  background-color: var(--main-accent-pink);
+  color: #180d3e;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background: var(--main-dark);
+  font-family: 'Nunito', sans-serif;
+  user-select: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 2rem;
+}
+header .navbar {
+  align-items: center;
+  display: -webkit-inline-box;
+  display: inline-flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-grow: 1;
+  width: 100%;
+}
+header a {
+  color: #fff;
+}
+header a:hover {
+  color: #ccc;
+  text-decoration: none;
+}
+
+/* LOGO */
+header .logo {
+  align-items: center;
+  flex-direction: row;
+  color: white;
+  padding-right: 5px;
+  padding-left: 15px;
+}
+.onxLogo {
+  color: var(--main-accent-pink);
+  font-weight: 900;
+}
+.vehMods {
+  color: #fff;
+}
+
+/* SEARCH */
+header .search {
+  flex: 1 0 auto;
+}
+header input[type="search"] {
+  background: #cccccc no-repeat;
+  background-image: url('assets/search-icon.svg');
+  background-position: 10px 9px;
+  background-size: 22px;
+  border: none;
+  float: right;
+  width: 300px;
+  margin: 15px 15px 15px 0;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  color: #1f2933;
+  outline: none;
+  text-indent: 30px;
+  display: block;
+  caret-color: var(--main-accent-pink); /* Text cursor color */
+  -webkit-caret-color: var(--main-accent-pink); /* For Safari support */
+}
+/* Hide the clear button on the search input */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(0, 0, 0, 0.9);
+  opacity: 0.9; /* Firefox */
+  font-weight: 200;
+}
+
+/* Carmods */
+#modList {
+  list-style-type: none;
+  padding: 0;
+}
+#modList li a {
+  text-decoration: none;
+  color: white;
+}
+#modList li a:hover:not(.header) {
+  border-radius: 3px;
+  background-color: var(--main-dark);
+  text-decoration: none;
+  color: var(--main-accent-pink);
+  display: inline;
+}
+
+/* CENTER COLUMN */
+.centercolumn {
+  width: 100%;
+}
+
+/* Search results */
+#searchResultsMessage {
+  color: var(--main-accent-pink);
+  font-weight: bold;
+}
+
+/* CARD for content 10082b*/
+.card {
+  list-style-type: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 30px 30px 10px 30px;
+  margin: 85px auto 45px auto; /* Centered and adjusted margin */
+  border-radius: 15px;
+  border: 20px;
+  max-width: 45%; /* Limit width to 70% of the page */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* FOOTER */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+}
+.footer p {
+  margin: 0 85px 0 0;
+  padding: 0;
+}
+.github-button {
+  background-color: var(--main-dark);
+  padding: 1.5px 3px 0 4px;
+  margin: 0 0 0 5px;
+  border: none;
+  border-radius: 3px;
+  color: var(--main-accent-darker-pink);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  float: left;
+  font-weight: bold;
+  user-select: none;
+}
+.github-button:hover {
+  background-color: var(--main-accent-darker-pink);
+  color: white;
+  text-decoration: none;
+}
+.updates-button {
+  background-color: var(--main-dark);
+  padding: 1.5px 3px 0 4px;
+  margin: 0 15px 0 0;
+  border: none;
+  border-radius: 3px;
+  color: var(--main-accent-darker-pink);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+  user-select: none;
+  font-size: 1rem;
+}
+.updates-button:hover {
+  background-color: var(--main-accent-darker-pink);
+  color: white;
+  text-decoration: none;
+}
+.footer-link {
+  border: none;
+  border-radius: 3px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-link:hover {
+  background-color: var(--main-accent-darker-pink);
+  text-decoration: none;
+}
+
+/* Updates MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.6);
+}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background: linear-gradient(150deg, rgb(37, 29, 59) 0%, rgb(28, 36, 45) 100%);
+  background-attachment: fixed;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 15px;
+}
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: var(--main-accent-pink);
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-header {
+  padding: 2px 16px;
+  background-color: var(--main-dark);
+  color: white;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+}
+.modal-body {
+  padding: 2px 16px;
+  color: #fff;
+}
+
+/* LINK STYLES
+Link 1 */
+.link1 {
+  color: var(--main-accent-pink);
+  font-weight: bold;
+  text-decoration: none;
+}
+.link1:hover {
+  text-decoration: underline;
+}
+/* Link 2 */
+.link2 {
+  color: white;
+  text-decoration: none;
+}
+.link2:hover {
+  color: white;
+  text-decoration: underline;
+}
+/* Link 3 */
+.link3 {
+  font-weight: none;
+  color: white;
+  text-decoration: none;
+}
+.link3:hover {
+  color: white;
+  text-decoration: underline;
+}
+/* Normal links */
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* PHRASES */
+.p {
+  font-size: 18px;
+}
+/* Style for Updates*/
+.p2 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+/* Style for NP Exclusive mods*/
+.p3 {
+  margin: 0px;
+}
+
+/* OTHER */
+::selection {
+  background-color: var(--main-accent-pink);
+  color: white;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    max-width: 60%
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  header .logo {
+    padding-left: 10px;
+  }
+  header input[type="search"] {
+    width: 250px;
+    margin: 10px 10px 10px 0;
+  }
+  .card {
+    padding: 5px 15px 5px 15px;
+    padding-top: 20px;
+    margin: 70px 10px 40px 10px;
+    max-width: 100%
+  }
+  .topBtn {
+    bottom: 55px;
+    right: 25px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  header input[type="search"] {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    font-size: 1.350rem;
+  }
+  header input[type="search"] {
+    width: 150px;
+    padding: 5px;
+    background-position: 10px 6px;
+    background-size: 16px;
+    border-radius: 8px;
+  }
+  .card {
+    padding: 5px 15px 5px 15px;
+    padding-top: 20px;
+    margin: 60px 10px 40px 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  header {
+    font-size: 0.9rem;
+  }
+}
