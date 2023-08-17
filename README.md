@@ -14,5 +14,5 @@
   <br>
   <br>
   <br>
-  <p>This is a <b><em>fan</em></b> project made by <a href="https://yungsamd17.github.io/">Sam</a>.</p>
+  <p>This is a <b><em>fan</em></b> made project by <a href="https://yungsamd17.github.io/">Sam</a>.</p>
 </div>
