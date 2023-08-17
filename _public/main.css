@@ -1,7 +1,6 @@
 body {
   --white: #fff;
   --black: #000;
-  --dark: #0d0d15;
   --dark: #0a031e;
   --purple: #180d3e;
   --darker-purple: #130a32;
@@ -250,6 +249,7 @@ input[type="search"]::-webkit-search-decoration {
   text-decoration: none;
 }
 .footer-link {
+  background-color: var(--dark);
   border: none;
   border-radius: 3px;
   display: inline-block;
