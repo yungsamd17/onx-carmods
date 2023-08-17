@@ -41,6 +41,12 @@ function myFunction() {
     if (element.closest(".footer")) {
       isExcluded = true;
     }
+    if (element.closest(".modal-header")) {
+      isExcluded = true;
+    }
+    if (element.closest(".nopixelLink")) {
+      isExcluded = true;
+    }
 
     if (!parentUL && !isExcluded) {
       element.style.display = "none";

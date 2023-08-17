@@ -2,12 +2,13 @@ body {
   --white: #fff;
   --black: #000;
   --dark: #0d0d15;
-  --main-dark: #0a031e;
-  --main-purple: #180d3e;
-  --main-darker-purple: #130a32;
-  --main-accent-pink: #ee46bd;
-  --main-accent-darker-pink: #e01b84;
-  --main-accent-darker-pink-hover: #881150;
+  --dark: #0a031e;
+  --purple: #180d3e;
+  --darker-purple: #130a32;
+  --accent-pink: #ee46bd;
+  --accent-darker-pink: #e01b84;
+  --accent-darker-pink-hover: #881150;
+  --accent-nopixel: #00f8b9;
 
   margin: 0;
   padding: 0;
@@ -27,11 +28,11 @@ body {
   background: #0d0d15; 
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--main-accent-darker-pink);
+  background: var(--accent-darker-pink);
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--main-accent-darker-pink-hover);
+  background: var(--accent-darker-pink-hover);
 }
 
 .topBtn {
@@ -44,7 +45,7 @@ body {
   height: 50px;
   font-size: 1.3rem;
   border: none;
-  background-color: var(--main-dark);
+  background-color: var(--dark);
   color: white;
   cursor: pointer;
   padding: 5px;
@@ -52,7 +53,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .topBtn:hover {
-  background-color: var(--main-accent-pink);
+  background-color: var(--accent-pink);
   color: #180d3e;
 }
 
@@ -62,7 +63,7 @@ header {
   top: 0;
   width: 100%;
   height: auto;
-  background: var(--main-dark);
+  background: var(--dark);
   font-family: 'Nunito', sans-serif;
   user-select: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -94,7 +95,7 @@ header .logo {
   padding-left: 15px;
 }
 .onxLogo {
-  color: var(--main-accent-pink);
+  color: var(--accent-pink);
   font-weight: 900;
 }
 .vehMods {
@@ -124,8 +125,6 @@ header input[type="search"] {
   outline: none;
   text-indent: 30px;
   display: block;
-  caret-color: var(--main-accent-pink); /* Text cursor color */
-  -webkit-caret-color: var(--main-accent-pink); /* Safari support */
 }
 /* Hide the clear button on the search input */
 input[type="search"]::-webkit-search-cancel-button,
@@ -150,9 +149,9 @@ input[type="search"]::-webkit-search-decoration {
 }
 #modList li a:hover:not(.header) {
   border-radius: 3px;
-  background-color: var(--main-dark);
+  background-color: var(--dark);
   text-decoration: none;
-  color: var(--main-accent-pink);
+  color: var(--accent-pink);
   display: inline;
 }
 
@@ -163,7 +162,7 @@ input[type="search"]::-webkit-search-decoration {
 
 /* Search results */
 #searchResultsMessage {
-  color: var(--main-accent-pink);
+  color: var(--accent-pink);
   font-weight: bold;
 }
 
@@ -173,10 +172,21 @@ input[type="search"]::-webkit-search-decoration {
   color: white;
   background-color: rgba(0, 0, 0, 0.25);
   padding: 30px 30px 10px 30px;
-  margin: 85px auto 45px auto;
+  margin: 85px auto 20px auto;
   border-radius: 15px;
   border: 20px;
   max-width: 45%;
+}
+.otherCarmodsList {
+  list-style-type: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 10px 30px 10px 30px;
+  margin: 10px auto 46px auto;
+  border-radius: 15px;
+  border: 20px;
+  max-width: 45%;
+  text-align: center;
 }
 
 .row:after {
@@ -199,12 +209,12 @@ input[type="search"]::-webkit-search-decoration {
   padding: 0;
 }
 .github-button {
-  background-color: var(--main-dark);
+  background-color: var(--dark);
   padding: 1.5px 3px 0 4px;
   margin: 0 0 0 5px;
   border: none;
   border-radius: 3px;
-  color: var(--main-accent-darker-pink);
+  color: var(--accent-darker-pink);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -214,17 +224,17 @@ input[type="search"]::-webkit-search-decoration {
   user-select: none;
 }
 .github-button:hover {
-  background-color: var(--main-accent-darker-pink);
+  background-color: var(--accent-darker-pink);
   color: white;
   text-decoration: none;
 }
 .updates-button {
-  background-color: var(--main-dark);
+  background-color: var(--dark);
   padding: 1.5px 3px 0 4px;
   margin: 0 15px 0 0;
   border: none;
   border-radius: 3px;
-  color: var(--main-accent-darker-pink);
+  color: var(--accent-darker-pink);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -235,7 +245,7 @@ input[type="search"]::-webkit-search-decoration {
   font-size: 1rem;
 }
 .updates-button:hover {
-  background-color: var(--main-accent-darker-pink);
+  background-color: var(--accent-darker-pink);
   color: white;
   text-decoration: none;
 }
@@ -249,7 +259,7 @@ input[type="search"]::-webkit-search-decoration {
   font-weight: bold;
 }
 .footer-link:hover {
-  background-color: var(--main-accent-darker-pink);
+  background-color: var(--accent-darker-pink);
   text-decoration: none;
 }
 
@@ -266,6 +276,16 @@ input[type="search"]::-webkit-search-decoration {
   overflow: auto;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.6);
+  animation: fadeIn 0.2s ease-in-out;
+}
+/* Animation for fading in the modal */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 /* Modal Content */
 .modal-content {
@@ -287,50 +307,33 @@ input[type="search"]::-webkit-search-decoration {
 }
 .close:hover,
 .close:focus {
-  color: var(--main-accent-pink);
+  color: var(--accent-pink);
   text-decoration: none;
   cursor: pointer;
 }
 .modal-header {
   padding: 2px 16px;
-  background-color: var(--main-dark);
+  background-color: var(--dark);
   color: white;
   text-align: center;
   border-radius: 15px 15px 0 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .modal-body {
   padding: 2px 16px;
   color: #fff;
 }
 
-/* LINK STYLES
-Link 1 */
-.link1 {
-  color: var(--main-accent-pink);
+/* LINK STYLES */
+.pastebinLink {
+  color: var(--accent-pink);
   font-weight: bold;
   text-decoration: none;
 }
-.link1:hover {
-  text-decoration: underline;
-}
-/* Link 2 */
-.link2 {
-  color: white;
+.nopixelLink {
+  color: var(--accent-nopixel);
+  font-weight: bold;
   text-decoration: none;
-}
-.link2:hover {
-  color: white;
-  text-decoration: underline;
-}
-/* Link 3 */
-.link3 {
-  font-weight: none;
-  color: white;
-  text-decoration: none;
-}
-.link3:hover {
-  color: white;
-  text-decoration: underline;
 }
 /* Normal links */
 a {
@@ -340,24 +343,18 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-/* PHRASES */
-.p {
-  font-size: 18px;
-}
-/* Style for Updates*/
-.p2 {
+.updateModal {
   margin-top: 20px;
   font-weight: bold;
 }
 /* Style for ONX Exclusive mods*/
-.p3 {
+.onxExclusive {
   margin: 0px;
 }
 
 /* OTHER */
 ::selection {
-  background-color: var(--main-accent-pink);
+  background-color: var(--accent-pink);
   color: white;
 }
 
@@ -385,6 +382,9 @@ a:hover {
   .topBtn {
     bottom: 55px;
     right: 25px;
+  }
+  .modal-content {
+    width: 95%;
   }
 }
 
