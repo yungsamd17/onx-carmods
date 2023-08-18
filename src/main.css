@@ -7,11 +7,12 @@ body {
   --accent-pink: #ee46bd;
   --accent-darker-pink: #e01b84;
   --accent-darker-pink-hover: #881150;
+  --gradient: linear-gradient(150deg, rgb(37, 29, 59) 0%, rgb(28, 36, 45) 100%);
   --accent-nopixel: #00f8b9;
 
   margin: 0;
   padding: 0;
-  background: linear-gradient(150deg, rgb(37, 29, 59) 0%, rgb(28, 36, 45) 100%);
+  background: var(--gradient);
   background-attachment: fixed;
   font-family: Arial;
 }
@@ -44,8 +45,8 @@ body {
   height: 50px;
   font-size: 1.3rem;
   border: none;
-  background-color: var(--dark);
-  color: white;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: var(--white);
   cursor: pointer;
   padding: 5px;
   border-radius: 50%;
@@ -62,10 +63,9 @@ header {
   top: 0;
   width: 100%;
   height: auto;
-  background: var(--dark);
+  background-color: rgba(0, 0, 0, 0.4);
   font-family: 'Nunito', sans-serif;
   user-select: none;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: 2rem;
 }
 header .navbar {
@@ -89,7 +89,7 @@ header a:hover {
 header .logo {
   align-items: center;
   flex-direction: row;
-  color: white;
+  color: var(--white);
   padding-right: 5px;
   padding-left: 15px;
 }
@@ -106,7 +106,7 @@ header .search {
   flex: 1 0 auto;
 }
 header input[type="search"] {
-  background: white no-repeat;
+  background: rgba(0, 0, 0, 0.45) no-repeat;
   background-image: url('assets/search-icon.svg');
   background-position: 10px 9px;
   background-size: 22px;
@@ -120,10 +120,13 @@ header input[type="search"] {
   font-size: 1rem;
   font-family: inherit;
   font-weight: bold;
-  color: #1f2933;
+  color: var(--white);
   outline: none;
   text-indent: 30px;
   display: block;
+}
+header input[type="search"]:focus {
+  outline: 2px solid var(--white);
 }
 /* Hide the clear button on the search input */
 input[type="search"]::-webkit-search-cancel-button,
@@ -132,8 +135,8 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgba(0, 0, 0, 0.9);
-  opacity: 0.9; /* Firefox */
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6; /* Firefox */
   font-weight: 200;
 }
 
@@ -144,7 +147,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 #modList li a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
 #modList li a:hover:not(.header) {
   border-radius: 3px;
@@ -168,7 +171,7 @@ input[type="search"]::-webkit-search-decoration {
 /* CARD for content */
 .card {
   list-style-type: none;
-  color: white;
+  color: var(--white);
   background-color: rgba(0, 0, 0, 0.25);
   padding: 30px 30px 10px 30px;
   margin: 85px auto 20px auto;
@@ -178,7 +181,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 .otherCarmodsList {
   list-style-type: none;
-  color: white;
+  color: var(--white);
   background-color: rgba(0, 0, 0, 0.25);
   padding: 10px 30px 10px 30px;
   margin: 10px auto 46px auto;
@@ -224,7 +227,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 .github-button:hover {
   background-color: var(--accent-darker-pink);
-  color: white;
+  color: var(--white);
   text-decoration: none;
 }
 .updates-button {
@@ -245,7 +248,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 .updates-button:hover {
   background-color: var(--accent-darker-pink);
-  color: white;
+  color: var(--white);
   text-decoration: none;
 }
 .footer-link {
@@ -290,7 +293,7 @@ input[type="search"]::-webkit-search-decoration {
 /* Modal Content */
 .modal-content {
   position: relative;
-  background: linear-gradient(150deg, rgb(37, 29, 59) 0%, rgb(28, 36, 45) 100%);
+  background: var(--gradient);
   background-attachment: fixed;
   margin: auto;
   padding: 0;
@@ -300,7 +303,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 /* The Close Button */
 .close {
-  color: white;
+  color: var(--white);
   float: right;
   font-size: 2rem;
   font-weight: bold;
@@ -314,7 +317,7 @@ input[type="search"]::-webkit-search-decoration {
 .modal-header {
   padding: 2px 16px;
   background-color: var(--dark);
-  color: white;
+  color: var(--white);
   text-align: center;
   border-radius: 15px 15px 0 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -337,7 +340,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 /* Normal links */
 a {
-  color: white;
+  color: var(--white);
   text-decoration: none;
 }
 a:hover {
@@ -355,7 +358,7 @@ a:hover {
 /* OTHER */
 ::selection {
   background-color: var(--accent-pink);
-  color: white;
+  color: var(--white);
 }
 
 
