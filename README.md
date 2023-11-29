@@ -5,7 +5,7 @@
 <h1> <div align="center"><a href="https://yungsamd17.github.io/onx-carmods/">ONX Vehicle Mods</div> </h1>
 
 <div align="center">
-  <h3><b>Reguraly updated LIST OF ALL VEHICLE MODS from <a href="https://onx.gg">ONX.GG</a> FiveM Roleplay Server</b></h3>
+  <h3><b>Regularly updated LIST OF ALL VEHICLE MODS from the <a href="https://onx.gg">ONX.GG</a> FiveM Roleplay Server</b></h3>
 <br>
   XX% of the Mods are the same as seen on ONX Server
   <br>
