@@ -1,20 +1,11 @@
 :root {
-    --main-nopixel: #111117;
-    --main-nopixel-lighter: #16161d;
-    --secondary-nopixel: #212127;
-    --secondary-nopixel-darker: #1d1d25;
-    --main-accent-nopixel: #00f8b9;
-    --main-accent-nopixel-hover: #008060;
-    --shadow: rgba(0, 0, 0, 0.2);
-
-    --white: #fff;
-    --black: #000;
     --dark: #0a031e;
     --purple: #180d3e;
     --darker-purple: #130a32;
     --accent-pink: #ee46bd;
     --accent-pink-hover: #e01b84;
     --gradient: linear-gradient(150deg, rgb(37, 29, 59) 0%, rgb(28, 36, 45) 100%);
+    --shadow: rgba(0, 0, 0, 0.2);
     --accent-nopixel: #00f8b9;
 
     color-scheme: dark;
@@ -393,7 +384,6 @@ br {
 @media only screen and (max-width: 1070px) {
     .topBtn {
         bottom: 110px;
-        background-color: var(--main-nopixel-lighter);
         box-shadow: none;
     }
 }
