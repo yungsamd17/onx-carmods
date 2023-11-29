@@ -9,11 +9,11 @@
 <br>
   XX% of the Mods are the same as seen on ONX Server
   <br>
-  The other XX% of Mods are either exclusively made for ONX or acquired/bought from from other sources.
+  The other XX% of Mods are either exclusively made for ONX or acquired/bought from other sources.
   <br>
   <br>
   <br>
   <br>
-  <p>If you found a mod that needs to be <b><em>Added, Removed or Updated</em></b> <em>Report</em> it <a href="https://github.com/yungsamd17/onx-carmods/issues/new/choose"><b>here</b></a>.</p>
+  <p>If you found a mod that needs to be <b><em>Added, Removed, or Updated</em></b> <em>Report</em> it <a href="https://github.com/yungsamd17/onx-carmods/issues/new/choose"><b>here</b></a>.</p>
   <p>This is a <b><em>fan</em></b> made project by <a href="https://yungsamd17.github.io/">Sam</a>.</p>
 </div>
