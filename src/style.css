@@ -1,0 +1,482 @@
+:root {
+    --main-nopixel: #111117;
+    --main-nopixel-lighter: #16161d;
+    --secondary-nopixel: #212127;
+    --secondary-nopixel-darker: #1d1d25;
+    --main-accent-nopixel: #00f8b9;
+    --main-accent-nopixel-hover: #008060;
+    --shadow: rgba(0, 0, 0, 0.2);
+
+    --white: #fff;
+    --black: #000;
+    --dark: #0a031e;
+    --purple: #180d3e;
+    --darker-purple: #130a32;
+    --accent-pink: #ee46bd;
+    --accent-pink-hover: #e01b84;
+    --gradient: linear-gradient(150deg, rgb(37, 29, 59) 0%, rgb(28, 36, 45) 100%);
+    --accent-nopixel: #00f8b9;
+
+    color-scheme: dark;
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--gradient);
+    background-attachment: fixed;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #0d0d15;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--accent-pink);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-pink-hover);
+}
+
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Nunito', sans-serif;
+    user-select: none;
+    font-size: 2rem;
+}
+
+header .navbar {
+    align-items: center;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 100%;
+}
+
+header a {
+    color: #fff;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+/* LOGO */
+header .logo {
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    padding-right: 5px;
+    padding-left: 15px;
+}
+
+.onxLogo {
+    color: var(--accent-pink);
+    font-weight: 900;
+}
+
+.onxLogo:hover {
+    text-decoration: underline;
+}
+
+/* SEARCH */
+header .search {
+    flex: 1 0 auto;
+}
+
+header input[type="search"] {
+    background: rgba(0, 0, 0, 0.45) no-repeat;
+    background-image: url('assets/search-icon.svg');
+    background-position: 10px 8.25px;
+    background-size: 22px;
+    border: none;
+    float: right;
+    width: 300px;
+    margin: 15px 15px 15px 0;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    text-indent: 30px;
+    display: block;
+}
+
+header input[type="search"]:focus {
+    outline: 2px solid #fff;
+}
+
+/* Hide the clear button on the search input */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    display: none;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 0.6;
+    font-weight: normal;
+}
+
+/* Carmods */
+.card ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#modList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#modList li a {
+    color: #fff;
+}
+
+#modList li a:hover:not(.header) {
+    color: var(--accent-pink);
+}
+
+/* CENTER COLUMN */
+.centercolumn {
+    width: 960px;
+}
+
+/* Search results */
+#searchResultsMessage {
+    color: var(--accent-pink);
+    font-weight: 900;
+}
+
+/* CARD for content*/
+.card {
+    list-style-type: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 20px;
+    min-height: 2645px;
+}
+
+.linkCard {
+    padding: 0;
+    margin: 88px auto 20px auto;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.link:hover {
+    color: var(--accent-pink);
+    font-weight: bold;
+}
+
+/* OtherCarmodsList (NoPixel) */
+.otherCarmodsList {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+  border: 20px;
+  text-align: center;
+}
+
+.otherCarmodsList p {
+    margin: 0;
+}
+
+/* DIVIDER */
+.divider {
+    width: 100%;
+}
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  margin: 20px;
+}
+
+/* FOOTER */
+.footer {
+    background: rgba(0, 0, 0, 0.15);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 0;
+    min-height: 18px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* Back to Top BUTTON */
+.topBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 900;
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    user-select: none;
+    box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
+}
+
+.topBtn:hover {
+    background-color: var(--accent-pink);
+    color: var(--purple);
+}
+
+/* Updates MODAL */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.6);
+    animation: fadeIn 0.25s ease-in-out;
+}
+
+/* Animation for fading in the modal */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Modal Content */
+.modalContent {
+    position: relative;
+    background: var(--gradient);
+    margin: auto;
+    padding: 0;
+    width: 850px;
+    box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
+    border-radius: 10px;
+}
+
+/* The Close Button */
+.modalCloseBtn {
+    color: #fff;
+    padding: 0 9px;
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 0;
+    border-radius: 50%;
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.modalCloseBtn:hover,
+.modalCloseBtn:focus {
+    color: var(--purple);
+    background-color: var(--accent-pink);
+    text-decoration: none;
+}
+
+/* Modal Header */
+.modalHeader {
+    padding: 8px;
+    padding-left: 45px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Modal Body */
+.modalBody {
+    padding: 2px 16px;
+    color: #fff;
+}
+
+.modalBody p {
+    font-weight: bold;
+}
+
+.modalBody a {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.modalBody a:hover {
+    color: var(--accent-pink);
+}
+
+/* Normal links */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* OTHER */
+::selection {
+    background-color: var(--accent-pink);
+    color: #1f2933;
+}
+
+.nopixelLink {
+  color: var(--accent-nopixel);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.about-links {
+    font-weight: bold;
+}
+
+.about-links:hover {
+    color: var(--accent-pink);   
+}
+
+br {
+    user-select: none;
+}
+
+
+
+@media only screen and (max-width: 1070px) {
+    .topBtn {
+        bottom: 110px;
+        background-color: var(--main-nopixel-lighter);
+        box-shadow: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    header .logo {
+        padding-left: 10px;
+    }
+
+    header input[type="search"] {
+        width: 250px;
+        margin: 10px 10px 10px 0;
+    }
+
+    .centercolumn {
+        width: 100%;
+    }
+
+    .card {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .linkCard {
+        padding: 5px 15px 5px 15px;
+        padding-top: 20px;
+        margin: 53px 10px 10px 10px;
+        max-width: 100%
+    }
+
+    hr {
+        margin: 10px 20px;
+    }
+
+    .footer {
+        padding: 10px;
+        margin: 0 10px;
+    }
+
+    .topBtn {
+        bottom: 90px;
+    }
+
+    .modalContent {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    header input[type="search"] {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        font-size: 1.350rem;
+    }
+
+    header input[type="search"] {
+        width: 150px;
+        padding: 5px;
+        background-position: 10px 6px;
+        background-size: 16px;
+        border-radius: 8px;
+    }
+
+    .linkCard {
+        margin: 43px 10px 10px 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    header {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 378px) {
+    .topBtn {
+        bottom: 110px;
+    }
+}
