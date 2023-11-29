@@ -1,0 +1,14 @@
+[
+    {
+        "date": "29/11/2023",
+        "changelog": [
+            {"change": "Website Redesigned"}
+        ]
+    },
+    {
+        "date": "15/08/2023",
+        "changelog": [
+            {"change": "Initial deployment ✨"}
+        ]
+    }
+]
