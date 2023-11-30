@@ -385,7 +385,7 @@ br {
 
 @media only screen and (max-width: 1070px) {
     .topBtn {
-        bottom: 110px;
+        bottom: 170px;
         box-shadow: none;
     }
 }
@@ -430,7 +430,7 @@ br {
     }
 
     .topBtn {
-        bottom: 90px;
+        bottom: 135px;
     }
 
     .modalContent {
@@ -470,6 +470,6 @@ br {
 
 @media only screen and (max-width: 378px) {
     .topBtn {
-        bottom: 110px;
+        bottom: 153px;
     }
 }
