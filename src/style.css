@@ -45,6 +45,7 @@ header {
     width: 100%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease;
     font-family: 'Nunito', sans-serif;
     user-select: none;
     font-size: 2rem;
@@ -92,10 +93,11 @@ header .search {
 }
 
 header input[type="search"] {
-    background: rgba(0, 0, 0, 0.45) no-repeat;
+    background: rgba(255, 255, 255, 0.05) no-repeat;
     background-image: url('assets/search-icon.svg');
     background-position: 10px 8.25px;
     background-size: 22px;
+    transition: background-color 0.3s ease;
     border: none;
     float: right;
     width: 300px;

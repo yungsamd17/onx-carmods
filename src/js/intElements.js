@@ -53,3 +53,20 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+
+// Change header color opacity on scroll
+document.addEventListener('DOMContentLoaded', function() {
+  var header = document.querySelector('header');
+  var scrollThreshold = 185;
+
+  window.addEventListener('scroll', function() {
+    var scrolled = window.scrollY;
+
+    if (scrolled > scrollThreshold) {
+      header.style.backgroundColor = 'rgba(0, 0, 0, 0.85)';
+    } else {
+      header.style.backgroundColor = 'rgba(0, 0, 0, 0.4)';
+    }
+  });
+});
