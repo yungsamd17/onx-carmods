@@ -27,7 +27,7 @@ body {
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #0d0d15;
+    background: #050508;
 }
 ::-webkit-scrollbar-thumb {
     background: var(--accent-pink);
@@ -170,7 +170,7 @@ input[type="search"]::-webkit-search-decoration {
     margin-bottom: 20px;
     border-radius: 10px;
     border: 20px;
-    min-height: 2645px;
+    min-height: 1365px;
 }
 
 .linkCard {
@@ -356,13 +356,21 @@ a:hover {
 /* OTHER */
 ::selection {
     background-color: var(--accent-pink);
-    color: #1f2933;
+    color: var(--dark);
 }
 
-.nopixelLink {
+.accent-link {
+  font-weight: bold;  
+  text-decoration: underline;
+}
+
+.accent-link:hover {
+  color: var(--accent-pink);
+}
+
+.nopixel-link {
   color: var(--accent-nopixel);
   font-weight: bold;
-  text-decoration: none;
 }
 
 .center-text {

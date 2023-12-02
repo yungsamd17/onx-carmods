@@ -1,5 +1,5 @@
 LIST OF ALL ONX.GG VEHICLE MODS:
-(Updated 15/08/2023)
+(Updated 02/12/2023)
 
 
 Website: https://yungsamd17.github.io/onx-carmods
@@ -19,49 +19,59 @@ Pegassi Tempesta Custom - https://tinyurl.com/2mofu685
 Ubermacht Sentinel Custom - https://tinyurl.com/uumkfa9j
 Ubermacht Sentinel Classic Custom - https://tinyurl.com/jh92ca6s
 Vapid Drift Ellie Custom - https://tinyurl.com/4t3tck8j
-...
 
 
-CAR MODS:
+Car Mods (Lore Friendly):
 
 
 JDM:
 
-...
+Annis Elegy RH5 Heritage Edition & Touring - https://tinyurl.com/yoed6yhm
+Dinka Nexus - https://tinyurl.com/u4vqjsk
+Emperor Sheava - https://tinyurl.com/yuwceafa
+Maibatsu Sunrise R - https://tinyurl.com/23cwmodx
 
 EU:
 
-...
+Benefactor Schlagen STR - https://tinyurl.com/yml45v8x
+Obey 9R - https://tinyurl.com/yvxutksn
+Obey Argento - https://tinyurl.com/2l42ocel
+Pegassi Severo - https://tinyurl.com/2mnjg8s2
+Pegassi Tempesta Evo Stradale - https://tinyurl.com/ynwmp7jy
+Progen Aurora Sport - https://tinyurl.com/ypuzlwq9
+Übermacht Oracle XS-LE - https://tinyurl.com/2zdtpwzf
+Vulcar Hachura R Custom - https://tinyurl.com/yna67y5d
 
 NA:
 
-...
+Bravado Buffalo Hellhound - https://tinyurl.com/te6sglc
+Canis Gator 4x4 - https://tinyurl.com/yrfgano8
+Cheval Picador EXR - https://tinyurl.com/yw9loh3n
+Declasse Lentus - https://tinyurl.com/yqmmadkg
+Mammoth Patriot H2 - https://tinyurl.com/ymcplqnx
+Vapid Sandstorm - https://tinyurl.com/yrzso5j2
+Vapid Vapid Scout 2020 - https://tinyurl.com/ynvowfaq
 
-Lore Friendly Cars:
+Utility Vehicles:
 
-...
-
-Dev/Spawn Cars:
-
-...
+Brute Boxville - Taco Van - https://tinyurl.com/yyupl5pe
+Brute Camper - https://tinyurl.com/2x7cxn8e
+Brute Master B8 & BinMaster B8 - https://tinyurl.com/2x7cxn8e
+MTL Cerberus 200 & 300 - https://tinyurl.com/yubo2d4d
 
 Emergency Vehicles:
 
-...
-
-Planes/Helicopters:
-
-...
+None 100% confimed yet
 
 
 Vehicle Sound Mods:
 
-...
+None at the moment
 
 
 Other Mods:
 
-...
+? Lore-friendly Sports Rims Pack - https://tinyurl.com/2nrgsdbx
 
 
-(Updated 15/08/2023)
+(Updated 02/12/2023)

@@ -1,5 +1,11 @@
 [
     {
+        "date": "02/12/2023",
+        "changelog": [
+            {"change": "Added majority of vehicles seen in gameplay trailer"}
+        ]
+    },
+    {
         "date": "29/11/2023",
         "changelog": [
             {"change": "Website Redesigned"}
