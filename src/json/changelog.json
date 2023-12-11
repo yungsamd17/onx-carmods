@@ -1,5 +1,11 @@
 [
     {
+        "date": "11/12/2023",
+        "changelog": [
+            {"change": "Added Benefactor Imperial (Taxi Van), Declasse Yosemite Ramp Truck (Tow Truck), and PD Vapid Scout 2020"}
+        ]
+    },
+    {
         "date": "02/12/2023",
         "changelog": [
             {"change": "Added Annis Roxanne, Dundreary Admiral Classic, and PD Bravado Buffalo STX"}

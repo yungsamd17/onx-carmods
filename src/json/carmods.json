@@ -69,9 +69,11 @@
         "category": "Utility Vehicles:",
         "headerLevel": 2,
         "cars": [
+            {"name": "Benefactor Imperial - Taxi Van", "link": "https://www.gta5-mods.com/vehicles/benefactor-imperial-add-on-tuning-liveries-lods"},
             {"name": "Brute Boxville - Taco Van", "link": "https://www.gta5-mods.com/vehicles/brute-boxville-mapped-taco-van-replace-add-on-liveries"},
             {"name": "Brute Camper", "link": "https://www.gta5-mods.com/vehicles/brute-camper-interior-menyoo"},
             {"name": "Brute Master B8 & BinMaster B8", "link": "https://www.gta5-mods.com/vehicles/brute-master-b8-binmaster-b8-add-on-liveries-template-sound-custom-shards"},
+            {"name": "Declasse Yosemite Ramp Truck - Tow Truck", "link": "https://www.gta5-mods.com/vehicles/yosemite-ramp-truck"},
             {"name": "MTL Cerberus 200 & 300", "link": "https://www.gta5-mods.com/vehicles/mtl-cerberus-200-300-add-on-liveries-template"}
         ]
     },
@@ -79,7 +81,8 @@
         "category": "Emergency Vehicles:",
         "headerLevel": 3,
         "cars": [
-            {"name": "PD Bravado Buffalo STX", "link": "https://www.gta5-mods.com/vehicles/sahp-bravado-buffalo-stx-dls"}
+            {"name": "PD Bravado Buffalo STX", "link": "https://www.gta5-mods.com/vehicles/sahp-bravado-buffalo-stx-dls"},
+            {"name": "PD Vapid Scout 2020", "link": "https://www.gta5-mods.com/vehicles/police-vapid-scout-2020-add-on-fivem-extras-callsign-system"}
         ]
     },
     {
