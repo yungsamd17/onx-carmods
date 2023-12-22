@@ -58,7 +58,7 @@ window.onclick = function(event) {
 // Change header color opacity on scroll
 document.addEventListener('DOMContentLoaded', function() {
   var header = document.querySelector('header');
-  var scrollThreshold = 185;
+  var scrollThreshold = 35;
 
   window.addEventListener('scroll', function() {
     var scrolled = window.scrollY;
