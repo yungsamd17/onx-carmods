@@ -1,14 +1,28 @@
 [
     {
+        "date": "22/12/2023",
+        "changelog": [
+            {"change": "Added 13 new vehicles:"},
+            {"change": "JDM: Annis Hellion XL, Annis Kawaii and Annis Trailwilder"},
+            {"change": "EU: Benefactor Admiral Classic and Bordeaux Arias"},
+            {"change": "NA: Albany Esperanto Executive, Declasse 550SS, Declasse Alamo 2500LS, Declasse Walton L35 (Stock), Vapid Contender Classic and Vapid Bobcat Hellraiser"},
+            {"change": "Utility Vehicles: Brute Retro Bus and Vapid Speedo Express"}
+        ]
+    },
+    {
         "date": "11/12/2023",
         "changelog": [
-            {"change": "Added Benefactor Imperial (Taxi Van), Declasse Yosemite Ramp Truck (Tow Truck), and PD Vapid Scout 2020"}
+            {"change": "Added Benefactor Imperial (Taxi Van)"},
+            {"change": "Added Declasse Yosemite Ramp Truck (Tow Truck)"},
+            {"change": "Added PD Vapid Scout 2020"}
         ]
     },
     {
         "date": "02/12/2023",
         "changelog": [
-            {"change": "Added Annis Roxanne, Dundreary Admiral Classic, and PD Bravado Buffalo STX"}
+            {"change": "Added Annis Roxanne"},
+            {"change": "Added Dundreary Admiral Classic"},
+            {"change": "Added PD Bravado Buffalo STX"}
         ]
     },
     {
@@ -21,12 +35,6 @@
         "date": "29/11/2023",
         "changelog": [
             {"change": "Website Redesigned"}
-        ]
-    },
-    {
-        "date": "15/08/2023",
-        "changelog": [
-            {"change": "Initial deployment ✨"}
         ]
     }
 ]

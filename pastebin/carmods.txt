@@ -1,5 +1,5 @@
 LIST OF ALL ONX.GG VEHICLE MODS:
-(Updated 11/12/2023)
+(Updated 22/12/2023)
 
 
 Website: https://yungsamd17.github.io/onx-carmods
@@ -21,20 +21,25 @@ Ubermacht Sentinel Classic Custom - https://tinyurl.com/jh92ca6s
 Vapid Drift Ellie Custom - https://tinyurl.com/4t3tck8j
 
 
-Car Mods (Lore Friendly):
+CAR MODS:
 
 
 JDM:
 
-Annis Elegy RH5 Heritage Edition & Touring - https://tinyurl.com/yoed6yhm
+Annis Elegy RH5 Heritage Edition - https://tinyurl.com/yoed6yhm
+Annis Hellion XL - https://tinyurl.com/yrb6s6wd
+Annis Kawaii - https://tinyurl.com/r6rh2zt
 Annis Roxanne - https://tinyurl.com/yondxvgg
+Annis Trailwilder - https://tinyurl.com/yqfycbma
 Dinka Nexus - https://tinyurl.com/u4vqjsk
 Emperor Sheava - https://tinyurl.com/yuwceafa
 Maibatsu Sunrise R - https://tinyurl.com/23cwmodx
 
 EU:
 
+Benefactor Admiral Classic - https://tinyurl.com/ywuextrt
 Benefactor Schlagen STR - https://tinyurl.com/yml45v8x
+Bordeaux Arias - https://tinyurl.com/yvco4qez
 Obey 9R - https://tinyurl.com/yvxutksn
 Obey Argento - https://tinyurl.com/2l42ocel
 Pegassi Severo - https://tinyurl.com/2mnjg8s2
@@ -45,12 +50,18 @@ Vulcar Hachura R Custom - https://tinyurl.com/yna67y5d
 
 NA:
 
+Albany Esperanto Executive - https://tinyurl.com/yms2zrwx
 Bravado Buffalo Hellhound - https://tinyurl.com/te6sglc
 Canis Gator 4x4 - https://tinyurl.com/yrfgano8
 Cheval Picador EXR - https://tinyurl.com/yw9loh3n
+Declasse 550SS - https://tinyurl.com/2x2mar8r
+Declasse Alamo 2500LS - https://tinyurl.com/yt4pqyeu
 Declasse Lentus - https://tinyurl.com/yqmmadkg
+Declasse Walton L35 (Stock) - https://tinyurl.com/yvkdxpy7
 Dundreary Admiral Classic - https://tinyurl.com/yv9y7c4y
 Mammoth Patriot H2 - https://tinyurl.com/ymcplqnx
+Vapid Contender Classic - https://tinyurl.com/yn47vprc
+Vapid Bobcat Hellraiser - https://tinyurl.com/ys9sfcqb
 Vapid Sandstorm - https://tinyurl.com/yrzso5j2
 Vapid Vapid Scout 2020 - https://tinyurl.com/ynvowfaq
 
@@ -60,8 +71,10 @@ Benefactor Imperial - Taxi Van - https://tinyurl.com/yr73amtv
 Brute Boxville - Taco Van - https://tinyurl.com/yyupl5pe
 Brute Camper - https://tinyurl.com/2x7cxn8e
 Brute Master B8 & BinMaster B8 - https://tinyurl.com/2x7cxn8e
+Brute Retro Bus - https://tinyurl.com/yoj4tboz
 Declasse Yosemite Ramp Truck - Tow Truck - https://tinyurl.com/yr7mbxr3
 MTL Cerberus 200 & 300 - https://tinyurl.com/yubo2d4d
+Vapid Speedo Express - https://tinyurl.com/w6enzmb
 
 Emergency Vehicles:
 
@@ -71,7 +84,7 @@ PD Vapid Scout 2020 - https://tinyurl.com/26hlc8qw
 
 Vehicle Sound Mods:
 
-None at the moment
+None known yet
 
 
 Other Mods:
@@ -79,4 +92,4 @@ Other Mods:
 ? Lore-friendly Sports Rims Pack - https://tinyurl.com/2nrgsdbx
 
 
-(Updated 11/12/2023)
+(Updated 22/12/2023)
