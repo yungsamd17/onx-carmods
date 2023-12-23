@@ -1,5 +1,11 @@
 [
     {
+        "date": "23/12/2023",
+        "changelog": [
+            {"change": "Added Sound Mod: Pegassi Tempesta Evo Stradale - (5.2L V10)"}
+        ]
+    },
+    {
         "date": "22/12/2023",
         "changelog": [
             {"change": "Added 13 new vehicles:"},
@@ -29,12 +35,6 @@
         "date": "02/12/2023",
         "changelog": [
             {"change": "Added majority of vehicles seen in gameplay trailer"}
-        ]
-    },
-    {
-        "date": "29/11/2023",
-        "changelog": [
-            {"change": "Website Redesigned"}
         ]
     }
 ]
