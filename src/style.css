@@ -144,10 +144,6 @@ input[type="search"]::-webkit-search-decoration {
     padding: 0;
 }
 
-#modList li a {
-    color: #fff;
-}
-
 #modList li a:hover:not(.header) {
     color: var(--accent-pink);
 }
