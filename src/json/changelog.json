@@ -1,11 +1,5 @@
 [
     {
-        "date": "01/01/2024",
-        "changelog": [
-            {"change": "Added Penaud Gaulle"}
-        ]
-    },
-    {
         "date": "23/12/2023",
         "changelog": [
             {"change": "Added Sound Mod: Pegassi Tempesta Evo Stradale - (5.2L V10)"}
@@ -35,6 +29,12 @@
             {"change": "Added Annis Roxanne"},
             {"change": "Added Dundreary Admiral Classic"},
             {"change": "Added PD Bravado Buffalo STX"}
+        ]
+    },
+    {
+        "date": "02/12/2023",
+        "changelog": [
+            {"change": "Added majority of vehicles seen in gameplay trailer"}
         ]
     }
 ]
