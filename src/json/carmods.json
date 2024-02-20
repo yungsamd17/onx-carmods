@@ -30,13 +30,18 @@
         "category": "JDM:",
         "headerLevel": 3,
         "cars": [
+            {"name": "Annis Elegy RH4", "link": "https://www.gta5-mods.com/vehicles/annis-elegy-rh4-add-on-tuning-liveries-sounds"},
             {"name": "Annis Elegy RH5 Heritage Edition", "link": "https://www.gta5-mods.com/vehicles/annis-elegy-rh5-heritage-edition-touring-add-on-lods-tuning-liveries"},
             {"name": "Annis Hellion XL", "link": "https://www.gta5-mods.com/vehicles/annis-hellion-xl-add-on-replace"},
             {"name": "Annis Kawaii", "link": "https://www.gta5-mods.com/vehicles/annis-kawaii-addon-replace-tuning"},
             {"name": "Annis Roxanne", "link": "https://www.gta5-mods.com/vehicles/annis-roxanne-add-on-tuning-sounds-liveries"},
+            {"name": "Annis S-230", "link": "https://www.gta5-mods.com/vehicles/annis-s-230-add-on-tuning-liveries"},
+            {"name": "Annis Sigma-Two", "link": "https://www.gta5-mods.com/vehicles/karin-sigma-two-add-on"},
             {"name": "Annis Trailwilder", "link": "https://www.gta5-mods.com/vehicles/annis-trailwilder-add-on-tuning-mmtgarage"},
+            {"name": "Annis ZR-380 Pack", "link": "https://www.gta5-mods.com/vehicles/annis-zr380-pack-add-on-tuning"},
             {"name": "Dinka Nexus", "link": "https://www.gta5-mods.com/vehicles/dinka-nexus"},
             {"name": "Emperor Sheava", "link": "https://www.gta5-mods.com/vehicles/emperor-sheava-add-on-lods"},
+            {"name": "Karin Ariant", "link": "https://www.gta5-mods.com/vehicles/karin-ariant-add-on-tuning-sounds-lods"},
             {"name": "Maibatsu Sunrise R", "link": "https://www.gta5-mods.com/vehicles/maibatsu-sunrise-r-add-on-tuning-liveries-sounds"}
         ]
     },
@@ -46,13 +51,19 @@
         "cars": [
             {"name": "Benefactor Admiral Classic", "link": "https://www.gta5-mods.com/vehicles/benefactor-admiral-classic-add-on-replace-tuning"},
             {"name": "Benefactor Schlagen STR", "link": "https://www.gta5-mods.com/vehicles/benefactor-schlagen-str-add-on"},
+            {"name": "Benefactor Streiter", "link": "https://www.gta5-mods.com/vehicles/benefactor-streiter-add-on"},
+            {"name": "Benefactor Surano GT (Hardtop)", "link": "https://www.gta5-mods.com/vehicles/benefactor-surano-hardtop"},
             {"name": "Bordeaux Arias", "link": "https://www.gta5-mods.com/vehicles/bordeaux-arias-add-on-tuning-lod-s-sounds"},
             {"name": "Obey 9R", "link": "https://www.gta5-mods.com/vehicles/obey-9r-add-on"},
             {"name": "Obey Argento", "link": "https://www.gta5-mods.com/vehicles/obey-argento-add-on-sounds-lods"},
             {"name": "Pegassi Severo", "link": "https://www.gta5-mods.com/vehicles/pegassi-severo-add-on-tuning-sounds"},
             {"name": "Pegassi Tempesta Evo Stradale", "link": "https://www.gta5-mods.com/vehicles/pegassi-tempesta-evo-stradale-add-on-tuning"},
             {"name": "Progen Aurora Sport", "link": "https://www.gta5-mods.com/vehicles/progen-aurora-sport-add-on-tuning"},
-            {"name": "Übermacht Oracle XS-LE", "link": "https://www.gta5-mods.com/vehicles/ubermacht-oracle-xs-le-add-on-tuning-lod-s-vehfuncs"},
+            {"name": "Ubermacht Cypher Hatchback", "link": "https://www.gta5-mods.com/vehicles/ubermacht-cypher-hatchback-add-on-tuning-lod-s-sounds"},
+            {"name": "Ubermacht Oracle XS-LE", "link": "https://www.gta5-mods.com/vehicles/ubermacht-oracle-xs-le-add-on-tuning-lod-s-vehfuncs"},
+            {"name": "Ubermacht Seraph XS", "link": "https://www.gta5-mods.com/vehicles/ubermacht-seraph-xs"},
+            {"name": "Ubermacht Vorstand", "link": "https://www.gta5-mods.com/vehicles/ubermacht-vorstand-add-on-tuning-sounds"},
+            {"name": "Vulcar Hachura R", "link": "https://www.gta5-mods.com/vehicles/vulcar-hachura-r-add-on-tuning-liveries-sounds"},
             {"name": "Vulcar Hachura R Custom", "link": "https://www.gta5-mods.com/vehicles/vulcar-hachura-custom-add-on-tuning"}
         ]
     },
@@ -60,8 +71,12 @@
         "category": "NA:",
         "headerLevel": 3,
         "cars": [
+            {"name": "Albany Cavalcade EXT", "link": "https://www.gta5-mods.com/vehicles/cavalcade-ext"},
             {"name": "Albany Esperanto Executive", "link": "https://www.gta5-mods.com/vehicles/albany-esperanto-executive-add-on-tuning-liveries"},
             {"name": "Bravado Buffalo Hellhound", "link": "https://www.gta5-mods.com/vehicles/bravado-buffalo-hellhound-add-on-sounds"},
+            {"name": "Bravado Gauntlet Classic", "link": "https://www.gta5-mods.com/vehicles/bravado-gauntlet-classic-add-on-liveries-template"},
+            {"name": "Bravado Gresley Hellhound", "link": "https://www.gta5-mods.com/vehicles/bravado-gresley-hellhound-add-on-sounds"},
+            {"name": "Bravado Vulture", "link": "https://www.gta5-mods.com/vehicles/bravado-vulture-add-on-tuning-liveries-sounds"},
             {"name": "Canis Gator 4x4", "link": "https://www.gta5-mods.com/vehicles/canis-gator-4x4-add-on-tuning-a8bada5c-a08e-4eb4-86a1-09226510da64"},
             {"name": "Cheval Picador EXR", "link": "https://www.gta5-mods.com/vehicles/cheval-picador-exr-addon-liveries-tuning"},
             {"name": "Declasse 550SS", "link": "https://www.gta5-mods.com/vehicles/declasse-550ss-add-on-replace"},
@@ -70,10 +85,13 @@
             {"name": "Declasse Walton L35 (Stock)", "link": "https://www.gta5-mods.com/vehicles/declasse-walton-l35-stock-add-on-lod-s-tuning-liverys"},
             {"name": "Dundreary Admiral Classic", "link": "https://www.gta5-mods.com/vehicles/dundreary-admiral-classic-add-ons"},
             {"name": "Mammoth Patriot H2", "link": "https://www.gta5-mods.com/vehicles/patriot-reshaped"},
+            {"name": "Vapid E-109 Off-Road", "link": "https://www.gta5-mods.com/vehicles/e109-off-road"},
             {"name": "Vapid Contender Classic", "link": "https://www.gta5-mods.com/vehicles/vapid-contender-classic-add-on"},
             {"name": "Vapid Bobcat Hellraiser", "link": "https://www.gta5-mods.com/vehicles/vapid-bobcat-hellraiser"},
             {"name": "Vapid Sandstorm", "link": "https://www.gta5-mods.com/vehicles/vapid-sandstorm-add-on-tuning-liveries-lods"},
-            {"name": "Vapid Scout 2020", "link": "https://www.gta5-mods.com/vehicles/vapid-scout-2020-add-on-soundbank-lods"}
+            {"name": "Vapid Scout", "link": "https://www.gta5-mods.com/vehicles/vapid-scout-add-on-replace"},
+            {"name": "Vapid Scout 2020", "link": "https://www.gta5-mods.com/vehicles/vapid-scout-2020-add-on-soundbank-lods"},
+            {"name": "Vapid Stanier 2nd Generation", "link": "https://www.gta5-mods.com/vehicles/vapid-stanier-add-on"}
         ]
     },
     {
@@ -95,7 +113,15 @@
         "headerLevel": 3,
         "cars": [
             {"name": "PD Bravado Buffalo STX", "link": "https://www.gta5-mods.com/vehicles/sahp-bravado-buffalo-stx-dls"},
-            {"name": "PD Vapid Scout 2020", "link": "https://www.gta5-mods.com/vehicles/police-vapid-scout-2020-add-on-fivem-extras-callsign-system"}
+            {"name": "PD Vapid Scout 2020", "link": "https://www.gta5-mods.com/vehicles/police-vapid-scout-2020-add-on-fivem-extras-callsign-system"},
+            {"name": "EMS Vapid Sandstorm Ambulance", "link": "https://www.gta5-mods.com/vehicles/vapid-sandstorm-ambulance-add-on-tuning-liveries-lods"}
+        ]
+    },
+    {
+        "category": "Bikes:",
+        "headerLevel": 2,
+        "cars": [
+            {"name": "LCC Verin", "link": "https://www.gta5-mods.com/vehicles/lcc-verin-add-on"}
         ]
     },
     {

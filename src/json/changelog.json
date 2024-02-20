@@ -1,5 +1,16 @@
 [
     {
+        "date": "20/02/2024",
+        "changelog": [
+            {"change": "Added 20 new vehicles:"},
+            {"change": "JDM: Elegy RH4, S-230, Sigma-Two and Ariant"},
+            {"change": "EU: Streiter, Surano GT (Hardtop), Cypher Hatchback, Seraph XS, Vorstand and Hachura R"},
+            {"change": "NA: Cavalcade EXT, Gauntlet Classic, Gresley Hellhound, Vulture, E-109 Off-Road, Scout and Stanier 2nd Generation"},
+            {"change": "Utility Vehicles: EMS Vapid Sandstorm Ambulance"},
+            {"change": "Bikes: LCC Verin"}
+        ]
+    },
+    {
         "date": "23/12/2023",
         "changelog": [
             {"change": "Added Sound Mod: Pegassi Tempesta Evo Stradale - (5.2L V10)"}
@@ -29,12 +40,6 @@
             {"change": "Added Annis Roxanne"},
             {"change": "Added Dundreary Admiral Classic"},
             {"change": "Added PD Bravado Buffalo STX"}
-        ]
-    },
-    {
-        "date": "02/12/2023",
-        "changelog": [
-            {"change": "Added majority of vehicles seen in gameplay trailer"}
         ]
     }
 ]

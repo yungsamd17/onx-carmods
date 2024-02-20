@@ -1,5 +1,5 @@
 LIST OF ALL ONX.GG VEHICLE MODS:
-(Updated 23/12/2023)
+(Updated 20/02/2024)
 
 
 Website: https://yungsamd17.github.io/onx-carmods
@@ -26,32 +26,47 @@ CAR MODS:
 
 JDM:
 
+Annis Elegy RH4 - https://tinyurl.com/25dqfjgz
 Annis Elegy RH5 Heritage Edition - https://tinyurl.com/yoed6yhm
 Annis Hellion XL - https://tinyurl.com/yrb6s6wd
 Annis Kawaii - https://tinyurl.com/r6rh2zt
 Annis Roxanne - https://tinyurl.com/yondxvgg
+Annis S-230 - https://tinyurl.com/2cvul8xa
+Annis Sigma-Two - https://tinyurl.com/282x987e
 Annis Trailwilder - https://tinyurl.com/yqfycbma
+Annis ZR-380 Pack - https://tinyurl.com/wacypug
 Dinka Nexus - https://tinyurl.com/u4vqjsk
 Emperor Sheava - https://tinyurl.com/yuwceafa
+Karin Ariant - https://tinyurl.com/yjhfurs4
 Maibatsu Sunrise R - https://tinyurl.com/23cwmodx
 
 EU:
 
 Benefactor Admiral Classic - https://tinyurl.com/ywuextrt
 Benefactor Schlagen STR - https://tinyurl.com/yml45v8x
+Benefactor Streiter - https://tinyurl.com/2cu39rfg
+Benefactor Surano GT (Hardtop) - https://tinyurl.com/yqjuppvv
 Bordeaux Arias - https://tinyurl.com/yvco4qez
 Obey 9R - https://tinyurl.com/yvxutksn
 Obey Argento - https://tinyurl.com/2l42ocel
 Pegassi Severo - https://tinyurl.com/2mnjg8s2
 Pegassi Tempesta Evo Stradale - https://tinyurl.com/ynwmp7jy
 Progen Aurora Sport - https://tinyurl.com/ypuzlwq9
-Übermacht Oracle XS-LE - https://tinyurl.com/2zdtpwzf
+Ubermacht Cypher Hatchback - https://tinyurl.com/2zdtpwzf
+Ubermacht Oracle XS-LE - https://tinyurl.com/2zdtpwzf
+Ubermacht Seraph XS - https://tinyurl.com/2yktv63m
+Ubermacht Vorstand - https://tinyurl.com/22rwmo5x
+Vulcar Hachura R - https://tinyurl.com/2cbac9ec
 Vulcar Hachura R Custom - https://tinyurl.com/yna67y5d
 
 NA:
 
+Albany Cavalcade EXT - https://tinyurl.com/2yq9lwup
 Albany Esperanto Executive - https://tinyurl.com/yms2zrwx
 Bravado Buffalo Hellhound - https://tinyurl.com/te6sglc
+Bravado Gauntlet Classic - https://tinyurl.com/2yf2kupj
+Bravado Gresley Hellhound - https://tinyurl.com/u2aurut
+Bravado Vulture - https://tinyurl.com/yst2yclu
 Canis Gator 4x4 - https://tinyurl.com/yrfgano8
 Cheval Picador EXR - https://tinyurl.com/yw9loh3n
 Declasse 550SS - https://tinyurl.com/2x2mar8r
@@ -60,10 +75,13 @@ Declasse Lentus - https://tinyurl.com/yqmmadkg
 Declasse Walton L35 (Stock) - https://tinyurl.com/yvkdxpy7
 Dundreary Admiral Classic - https://tinyurl.com/yv9y7c4y
 Mammoth Patriot H2 - https://tinyurl.com/ymcplqnx
+Vapid E-109 Off-Road - https://tinyurl.com/29cglc28
 Vapid Contender Classic - https://tinyurl.com/yn47vprc
 Vapid Bobcat Hellraiser - https://tinyurl.com/ys9sfcqb
 Vapid Sandstorm - https://tinyurl.com/yrzso5j2
+Vapid Scout - https://tinyurl.com/uq598wg
 Vapid Vapid Scout 2020 - https://tinyurl.com/ynvowfaq
+Vapid Stanier 2nd Generation - https://tinyurl.com/28evevfv
 
 Utility Vehicles:
 
@@ -80,6 +98,10 @@ Emergency Vehicles:
 
 PD Bravado Buffalo STX (DLS) - https://tinyurl.com/ytpy5t35
 PD Vapid Scout 2020 - https://tinyurl.com/26hlc8qw
+EMS Vapid Sandstorm Ambulance - https://tinyurl.com/29md4dd6
+
+Bikes: 
+LCC Verin - https://tinyurl.com/25zsyxvt
 
 
 Vehicle Sound Mods:
@@ -92,4 +114,4 @@ Other Mods:
 ? Lore-friendly Sports Rims Pack - https://tinyurl.com/2nrgsdbx
 
 
-(Updated 23/12/2023)
+(Updated 20/02/2024)
